@@ -1,5 +1,5 @@
 - name: Setup Docker & Docker Compose
-  hosts: 10.24.206.170
+  hosts: all
   become: true
   tasks:
     - name: Setup repository
